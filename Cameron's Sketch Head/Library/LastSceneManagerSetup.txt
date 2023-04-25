@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Cameron's Sketch head.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

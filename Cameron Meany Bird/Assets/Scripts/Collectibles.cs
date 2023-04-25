@@ -9,6 +9,5 @@ public class Collectibles : MonoBehaviour
     {
         //Add score
         Score.score++;
-        //on step 32
     }
 }
