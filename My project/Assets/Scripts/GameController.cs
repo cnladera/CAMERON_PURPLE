@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+
+
     public GameObject timerCanvas;
 
     private Text timerText;
@@ -18,6 +20,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         timerText = GameObject.Find("Score").GetComponent<Text>();
     }
+
 
     IEnumerator CountTime()
     {
